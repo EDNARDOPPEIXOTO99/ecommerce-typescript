@@ -16,6 +16,11 @@ Projeto desenvolvido para a atividade da Aula 02 do TIC-HUB.
 - Cálculo de total de itens
 - Cálculo de valor final da compra
 
+## Métodos utilizados
+
+- some()
+- reduce()
+
 ## Conceitos aplicados
 
 - Programação Orientada a Objetos
@@ -23,6 +28,16 @@ Projeto desenvolvido para a atividade da Aula 02 do TIC-HUB.
 - Enum
 - Tipagem forte
 - High Order Functions
+
+## Estrutura do projeto
+
+src/
+ ├── index.ts
+ └── model/
+      ├── category.model.ts
+      ├── product.model.ts
+      ├── user.model.ts
+      └── cart.model.ts
 
 ## Executar projeto
 
