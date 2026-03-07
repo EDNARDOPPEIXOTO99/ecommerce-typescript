@@ -1,13 +1,15 @@
 {
   "name": "ecommerce-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de e-commerce em TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ednardo Peixoto",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
